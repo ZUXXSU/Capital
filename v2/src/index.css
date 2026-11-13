@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design tokens ───────────────────────────────────────────────────────── */
+:root {
+  --bg: 247 248 250;
+  --surface: 255 255 255;
+  --surface-2: 244 246 249;
+  --border: 226 230 236;
+  --muted: 110 119 133;
+  --fg: 17 24 39;
+  --fg-soft: 71 84 103;
+  --brand: 37 99 235;        /* confident blue */
+  --brand-fg: 255 255 255;
+  --positive: 22 163 74;
+  --negative: 220 38 38;
+  --warning: 217 119 6;
+  --accent: 124 58 237;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: 13 17 23;
+  --surface: 22 27 34;
+  --surface-2: 30 36 44;
+  --border: 45 52 62;
+  --muted: 139 148 158;
+  --fg: 230 237 243;
+  --fg-soft: 180 190 200;
+  --brand: 56 139 253;
+  --brand-fg: 255 255 255;
+  --positive: 63 185 80;
+  --negative: 248 81 73;
+  --warning: 210 153 34;
+  --accent: 163 113 247;
+  color-scheme: dark;
+}
+
+* { border-color: rgb(var(--border)); }
+
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Numbers in ledgers/reports align and read as money */
+.tabular { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum'; }
+
+/* Focus ring consistent across keyboard navigation */
+:focus-visible { outline: 2px solid rgb(var(--brand)); outline-offset: 2px; border-radius: 4px; }
+
+/* Thin scrollbars */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: rgb(var(--border)); border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--muted)); }
+
+/* Keycap hint used throughout for the PACE-preserved hotkeys */
+.keycap {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 1.25rem; height: 1.25rem; padding: 0 0.3rem;
+  font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; font-weight: 500;
+  color: rgb(var(--fg-soft));
+  background: rgb(var(--surface-2));
+  border: 1px solid rgb(var(--border));
+  border-bottom-width: 2px;
+  border-radius: 5px;
+}
