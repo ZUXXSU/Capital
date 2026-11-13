@@ -1,0 +1,889 @@
+                   CAPITAL PLUS FINANCIAL ACCOUNTING PACKAGE
+                          For Co-operative Societys
+                                Version  5.00
+                                
+                    TEL: 2618 5162    CELL: 98203 35565
+                     E-mail :james_desouza@hotmail.com
+***********************************************************************
+
+USE THE  UP, DOWN, LEFT, RIGHT ARROWS & PAGEUP/PAGEDOWN KEYS
+                 TO SEE THIS HELP SCREEN
+                             
+***********************************************************************
+
+1)  THE MAIN MENU
+    -------------
+
+     ษอออ  MAIN  MENU  ออป
+     บ 0. Quit           บ อออ To Exit 
+     บ 1. Master Maint.  บ อออ To Create/Edit the Ledgers Accounts , Groups, Member Details , Prefined Standard Narrations/ Banks Names
+     บ 2. Voucher Entry  บ อออ To Enter Bank, Cash, Petty Cash Vouchers, Journal Entries
+     บ 3. Bills/Vouchers บ อออ To Generate Bills, View/Print Bills, Delete Bills, Rebill, Print Receipts, Outstanding Lists etc
+     บ 4. Account Books  บ อออ To View/Print Account Books/Registers
+     บ 5. Reports        บ อออ To View/Print the Ledger, Trial Balance, Income & Exp. A/c, Balance Sheet, Cash Flow St., Analysis/Summaries etc
+     บ 6. Open/Clos Bal. บ อออ To View/Print the Opening and Closing Balances (as on any date)
+     บ 7. Accessories    บ อออ To View/Print Mailing List, Labels, Bank Reconcilation, Backup/Restore Data, System Information, Set Day Alarm, House Keeping, HELP!!
+     บ 8. Setup          บ อออ To Design Society Bill, Change Password, Advanced Settings
+     บ 9. Installation   บ อออ To Install - Change Company Name, Accounting Period, Super-user password etc.
+     ศอออออออออออออออออออผ
+
+
+                     G E T T I N G       S T A R T E D    
+
+Follow the 6 Steps to Generate and Print your Bills.
+----------------------------------------------------
+
+STEP 1. CREATION OF A NEW SOCIETY.
+----------------------------------
+A New Society can be created at any stage by Selecting the Option
+<CREATE COMPANY>
+1. Press Enter when prompted to enter Company No.
+2. Enter the Society Name when prompted Company Name
+3. Select the option Create Company, and press Enter Key.
+4. When you are prompted <PRESS ENTER KEY TO PROCESS>, press the Enter Key
+   a group of files will be copied.
+5. Use the <SHIFT TO> to select the Newly created Society.   
+
+                 
+STEP 2. INSTALLATION 
+--------------------
+When you select a newly created Society, you will be prompted to enter the password.
+Since no Password is set yet, simply press the Enter Key, whenever prompted to 
+enter the password.
+
+Next you will be prompted to Install the Package, When prompted,
+Install the Package ? enter "Y" for Yes.
+You will be prompted to enter the Codeword. Enter "james" in lower or UPPER case.
+
+Enter the SOCIETY NAME when prompted to do so.
+Enter the ACCOUNTING PERIOD 
+You may leave the Address and other infomation blank.
+
+STEP 3. CREATING LEDGER ACCOUNTS
+--------------------------------
+Next take your list of members of the society, and start entering all the member names.
+As shown below select the Menu Master Maint. อออ Create Account
+
+     ษอออ  MAIN  MENU  ออป      ษอออ MASTER MAINT. อป              
+     บ 0. Quit           บ      บ 0. Quit           บ 
+     บ 1. Master Maint.  บ อออ บ 1. Create Account บ 
+     บ 2. Voucher Entry  บ      บ 2. Edit Account   บ 
+     บ 3. Bills/Vouchers บ      บ 3. Member Details บ
+
+
+e.g. Enter the Name Rajesh Shah, (as Ledger Account)
+     Next a list of GROUPS will pop up,
+     
+     Select the Group  <MEMBER'S DUES>, and press Enter Key.
+     You may enter the Opening Balance, or do so later on.
+     Press Enter to <SAVE> or Delete if entered wrongly.
+     
+     Go on entering all the names of members, one by one, now the
+     Group <MEMBER'S DUES> will be selected Automatically.
+     Do not enter the Title Mr. or Mrs. alongwith the names, there is a special
+     provision for it.
+     
+     After entering all the member name, come out from the screen,
+     by either pressing <ESC> key, or saying <NO> for any More Entries ? 
+     
+     Next take a copy of the Society Bill
+     ------------------------------------
+     Go to the same Menu once again, of <CREATE ACCOUNT>     
+     Now you have to create all the Ledger Accounts of the Bill Items
+     
+     e.g.
+     
+     Ledger Account           Select Group
+     --------------------------------------
+     PROPERTY TAXES            Select Group < CONTRIBUTION FROM MEMBERS > - Income & Exp. Item
+     WATER CHARGES COLLECTION  Select Group < CONTRIBUTION FROM MEMBERS >
+     SERVICE CHARGES           Select Group < CONTRIBUTION FROM MEMBERS >
+     PARKING CHARGES           Select Group < CONTRIBUTION FROM MEMBERS >
+     SINKING FUND              Select Group < SINKING FUND > - since its a Liability item.
+     CABLE TV CHARGES          Select Group < CONTRIBUTION FROM MEMBERS >
+     NON OCCUPANTY CHARGES     Select Group < CONTRIBUTION FROM MEMBERS >
+     REPAIR FUND               Select Group < OTHER FUNDS > - since its a Liability item.
+     INTEREST ON ARREARS       Select Group < CONTRIBUTION FROM MEMBERS > or < INCOME >
+     
+     You may continue further by creating all Ledger Accounts from the Balance Sheet 
+     and from the Income & Expenditure Statement of the Previous Year.
+     
+     e.g. Take your previous Years Income & Expenditure Statement
+     ------------------------------------------------------------
+     CONVEYANCE                  Select Group < EXPENSES > - since it is an Expense
+     MUNCIPAL TAX                Select Group < EXPENSES > 
+     WATER CHARGES PAID          Select Group < EXPENSES > 
+     PRINTING & STATIONERY       Select Group < EXPENSES > 
+     
+     enter the rest of the Expense items similarly
+     
+     Next Take your Previous Years Balance Sheet
+     -------------------------------------------
+     As above enter the Balance Sheet Items
+     Also enter the previous Years closing Balance as Opening Bal for the year.
+     (except Cash A/c you have to create rest of Balance Sheet items)
+     
+               Following are all Assets
+               ------------------------ 
+     
+     STATE BANK OF INDIA A/C      Select Group < CASH & BANK BALANCE > 
+     MUMBAI DISTRICT CO-OP BANK   Select Group < CASH & BANK BALANCE > 
+     COMPUTER SYSTEMS             Select Group < FIXED ASSETS > 
+     FURNITURE & FIXTURES         Select Group < FIXED ASSETS > 
+     FDR NO 4250 SBI A/c          Select Group < INVESTMENTS > 
+     TELEPHONE DEPOSIT            Select Group < DEPOSITS > 
+     RAJESH LOAN A/C              Select Group < LOANS & ADVANCES > 
+     
+               Following are Liabilities
+               -------------------------
+                    
+     Issued Share Capital         Select Group < SHARE CAPITAL > 
+     Audit Fees Payable           Select Group < PROVISIONS > 
+     Telephone Charges Payable    Select Group < PROVISIONS > 
+     Common Ameniteis Fund        Select Group < OTHER FUNDS > 
+     
+
+    If you have made any mistake in entering the Ledger Account,
+    or typed a wrong Members name, or entered a wrong Opening Balance
+    you Edit it as follows, or even Delete
+    
+                                ษอออ MASTER MAINT. อป
+     ษอออ  MAIN  MENU  ออป      บ 0. Quit           บ               
+     บ 0. Quit           บ      บ 1. Create Account บ 
+     บ 1. Master Maint.  บ อออ บ 2. Edit Account   บ 
+     บ 2. Voucher Entry  บ      บ 3. Member Details บ
+     บ 3. Bills/Vouchers บ      บ                   บ
+    
+     Next Select the Ledger Account to be corrected, from 
+     the List which will be displayed, and make the change.
+     
+         
+STEP 4. ENTERING MEMBER DETAILS
+-------------------------------
+     Follow the following steps to enter the Flat Nos.,Member's Opening Balance,
+     Area, Mr. or Mrs. or M/s as the addressed to a person.    
+     
+
+                                ษอออ MASTER MAINT. อป
+                                บ 0. Quit           บ
+     ษอออ  MAIN  MENU  ออป      บ 1. Create Account บ                
+     บ 0. Quit           บ      บ 2. Edit Account   บ 
+     บ 1. Master Maint.  บ อออ บ 3. Member Details บ
+     บ 2. Voucher Entry  บ      บ 4. Group Entry    บ
+     บ 3. Bills/Vouchers บ      
+    
+
+
+      ฺฤฤฤฤฤฤฤ B i l l     O p t i o n s ฤฤฤฤฤฤฤฤฟ
+      ณ 1. Edit Name, Area, Unit, Open. Bal ? Y  ณ - say Y for Yes
+      ณ 2. Allow editing of Rates ?           N  ณ 
+      ณ 3. Sort according to Flat Nos. ?      N  ณ 
+
+
+      
+      A window will display all member names,
+      Enter the Flat Nos, below, enter the Wing etc.
+      column Unit No, enter the Area, Opening Balance
+      enter the Opening Interest if you want to opt for Simple Interest.
+      
+      Edit any member Names if required, enter Mr. Mrs. in the <Addr> column.
+      To copy the <Mr.> you may press Ctrl + A
+      To copy the Wing  you may press Ctrl + W etc
+      for Help on other Options press Ctrl + H
+      
+      If you have entered the Flat Nos and Names in a wrong sequence, 
+      and want to sort it as per Wing and Flat Nos. do the following.
+      
+      
+      ฺฤฤฤฤฤฤฤ B i l l     O p t i o n s ฤฤฤฤฤฤฤฤฟ
+      ณ 1. Edit Name, Area, Unit, Open. Bal ? N  ณ - say N
+      ณ 2. Allow editing of Rates ?           N  ณ - say N
+      ณ 3. Sort according to Flat Nos. ?      Y  ณ - say Y for Yes
+      
+      
+STEP 5. DESIGNING THE BILL STRUCTURE
+------------------------------------
+
+Select the Menu as shown below
+
+     ษอออ  MAIN  MENU  ออป
+     บ 0. Quit           บ 
+     บ 1. Master Maint.  บ 
+     บ 2. Voucher Entry  บ 
+     บ 3. Bills/Vouchers บ 
+     บ 4. Account Books  บ 
+     บ 5. Reports        บ 
+     บ 6. Open/Clos Bal. บ 
+     บ 7. Accessories    บ 
+     บ 8. Setup          บ อออ To Design Society Bill
+     บ 9. Installation   บ 
+     ศอออออออออออออออออออผ
+      
+      
+     ษออ ADVANCED OPTION  ป
+     บ 0. Quit            บ 
+     บ 1. Socty Bill Setupบ  อออ Press and Select this 
+     บ 2.                 บ       Sub Menu
+
+
+A window will prompt you to enter the Society's Name, Regn No, Address etc.
+enter appropriate details..
+
+After you are asked to <Continue Further Bill Compositin ?> say Y for Yes
+and enter the Bill Structure Date e.g.  "01/04/2004"
+
+Next you have to enter all the Bill items one by one,
+as shown below, Particulars in Bill, will be the matter
+which will be printed on the Bills.
+And the <Column Head> is the Column Heading for the Bill Register.
+Select the appropriate <Ledger Account>, which was created under
+Step 3 (above)
+
+
+  Particulars in Bill              Column Head           Select Ledger 
+  will be printed on Bill          for Register          for auto Posting
+  ---------------------------    -----------------      ---------------
+  PROPERTY TAXES                   Prop.     Taxes       PROPERTY TAXES
+  WATER CHARGES COLLECTION         Water     Charges     WATER CHARGES COLLECTION
+  SERVICE CHARGES                  Serv.     Charges     SERVICE CHARGES
+  PARKING CHARGES                  Parking   Charges     PARKING CHARGES 
+  SINKING FUND                     Sinking   Fund        SINKING FUND
+  CABLE TV CHARGES                 Cable     Charges     CABLE TV CHARGES
+  NON OCCUPANTY CHARGES            Non Occ   Charges     NON OCCUPANTY CHARGES
+  REPAIR FUND                      Repair    Fund.       REPAIR FUND
+
+
+When asked ..... Any More Items ? say No.
+
+
+DO NOT ENTER INTEREST ITEM, it will be automatically created.
+
+           
+STEP 6. ENTERING THE BILLING RATES
+----------------------------------
+Go to the following Menu
+
+                                ษอออ MASTER MAINT. อป
+                                บ 0. Quit           บ
+     ษอออ  MAIN  MENU  ออป      บ 1. Create Account บ                
+     บ 0. Quit           บ      บ 2. Edit Account   บ 
+     บ 1. Master Maint.  บ อออ บ 3. Member Details บ
+     บ 2. Voucher Entry  บ      บ 4. Group Entry    บ
+     บ 3. Bills/Vouchers บ      
+     
+
+
+      
+      ฺฤฤฤฤฤฤฤ B i l l     O p t i o n s ฤฤฤฤฤฤฤฤฟ
+      ณ 1. Edit Name, Area, Unit, Open. Bal ? N  ณ - say N
+      ณ 2. Allow editing of Rates ?           Y  ณ - say Y for Yes
+      ณ 3. Sort according to Flat Nos. ?         ณ 
+
+
+Now against the Members Names enter the Rates e.g. Munc Taxes  500.00
+
+You are now all set to Generate you first set of Bills.
+
+
+     
+                  * * * *                    * * * * 
+                  
+                  
+--------------------------------------------------------------------------
+S H O R T   C U T S  to   F R E Q U E N T L Y   U S E D   C O M M A N D S
+--------------------------------------------------------------------------
+HOW TO GENERATE BILLS ?
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+1. Generate Bills
+
+(Next Always update whenever Bills are changed or Generated)
+----------------------------------------------------------------
+HOW TO UPDATE BILLS ? WHAT IS UPDATING ?
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+8. Update Bills
+
+(Updating will post bills to the Ledger, There is no harm in updating
+any number of times, it will post only once.)
+----------------------------------------------------------------
+HOW TO DISPLAY OR PRINT BILLS ?
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+2. Print Bills
+
+   Use the <space bar> to select the required bills,
+   Use <F1> to De-select Bills
+   Use <F4> to Select a whole months Bills
+----------------------------------------------------------------
+HOW TO DELETE BILLS ?  
+   (Be Careful, will delete all bills for the selected month)
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+3. Delete Bills
+
+----------------------------------------------------------------
+HOW TO CHANGE MEMBER'S NAME, FLAT NO, AREA OR OPENING BALANCE ?
+1. Master Maint.
+3. Member Details
+
+   1. Edit Names, Area, Unit, Open Bal ? 
+      say Y - for Yes
+
+----------------------------------------------------------------
+HOW TO CHANGE RATES OF MAINTENANCE BILLS ?
+1. Master Maint.
+3. Member Details
+
+   1. Edit Names, Area, Unit, Open Bal ? 
+      say N - for No    
+      
+   2. Allow Editing of Rates ?           
+      say Y - for Yes     
+      
+   After rates are changed in the Master, either
+   Generate the Bills or Re-Bill as Required.
+   See Below for Re-Billing   
+----------------------------------------------------------------
+I WANT TO CHANGE JUST A BILL OR TWO ? WHAT DO I DO ?
+HOW TO RE-BILL ? WHY TO RE-BILL ?
+
+If you want just to change a bill or some bills.
+   First of all 
+   Change the rates of Maintenance Bill, follow instructions given
+   above, How to Change Rates of Maintenance Bills.
+   Next See the Bill Register, and note down the bill numbers to change
+   e.g. Bill No. 00020
+   
+   Where do I See the Bill Register
+4. Account Books
+4. Bill Register
+   Select the appropriate Month
+   Note down the Bill No.      
+
+   TO RE-BILL
+   ----------
+   
+3. Bills/Vouchers 
+3. Bills/Receipts
+4. Re-Bill
+   
+   Enter the Bill No.
+   e.g.  00020
+   
+   <SAVE>
+   
+   Next Step
+   ---------
+   Always Update wheneven any Bills are changed or Generated.
+   
+   Steps to Update
+   ---------------
+   
+3. Bills/Vouchers 
+3. Bills/Receipts
+8. Update   
+
+   PRE-CAUTION
+   -----------
+   If you Re-Bill an earlier months bill, you have to 
+   Re-bill and Update all subsequent Month's Bill also
+      
+----------------------------------------------------------------
+HOW TO ENTER AMOUNT RECEIVED FROM MEMBERS ?
+2. Voucher Entry
+2. Bank Receipts
+
+   Select <Add Mode>
+   
+   Select Bank and Press <ESC>
+   
+   Enter the Date of Receipt
+   Enter the amount
+   Press <f4> to select Member from List
+   Press <Enter>
+   Enter Narration e.g. Cheque No. / chq date / Bank Name
+   
+   <SAVE>
+   
+   Assuming that even Cash received is fully deposited in the Bank,
+   follow the same as above.
+   
+   If e.g. Rs. 5000/= is received by Cash, and the same
+   is utilsed for expenses, select the below mentioned Options.
+   
+2. Voucher Entry
+4. Cash Receipts
+   
+----------------------------------------------------------------
+HOW TO PRINT OR DISPLAY ALL THE RECEIPTS I ENTERED ?
+
+3. Bills/Vouchers 
+4. Receipts List
+----------------------------------------------------------------
+HOW TO PRINT THE RECEIPTS ?
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+5. Bank Receipts
+
+   Enter the Receipt Nos   From
+                             To
+                             
+   or Press <f1> to Select                              
+----------------------------------------------------------------
+HOW TO PRINT / VIEW OUTSTANDING LIST ?
+
+3. Bills/Vouchers 
+3. Bills/Receipts
+7. O/s List
+
+   Enter the Amount From   - <Enter a Negative amt to include Advances>
+                      to   
+   
+   e.g. -5000000  to 5000000
+   
+----------------------------------------------------------------
+HOW TO ENTER BANK EXPENSES (cheque payments) ?
+2. Voucher Entry
+3. Bank Payments
+
+   Select <Add Mode>
+   
+   Select Bank and Press <ESC>
+   
+   Enter the Date of Payment
+   Enter the amount
+   Press <f1> to select Account
+       or
+   type out the Account Name Prefix e.g. Con - for Conveyance    
+       
+   Press <Enter>
+   Enter Narration e.g. Amount paid to Mr. Rajesh
+   Enter the Cheque No.
+   
+   <SAVE>
+
+----------------------------------------------------------------
+HOW TO ENTER CASH EXPENSES (payments vide cash) ?
+2. Voucher Entry
+5. Cash Payments
+
+   Select <Add Mode>
+   
+   Enter the Date of Payment
+   Enter the amount
+   Press <f1> to select Account
+       or
+   type out the Account Name Prefix e.g. Con - for Conveyance    
+       
+   Press <Enter>
+   Enter Narration e.g. Amount paid to Miss Anita
+   
+   <SAVE>
+
+----------------------------------------------------------------
+WHAT TO DO WHEN A UNIT/FLAT IS TRANSFERED ?
+
+SIMPLE METHOD
+-------------
+1. Master Maint.
+3. Member Details
+
+   1. Edit Names, Area, Unit, Open Bal ? 
+      say Y - for Yes
+      
+      Simply change the Old Member's Name and type the New Member's name
+      
+      
+RIGHT METHOD
+------------      
+1. Master Maint. (from MAIN MENU)
+   1. Create Account > Enter the New Member's Name > Select GROUP Member's Dues
+   
+NEXT .....
+1. Master Maint. (from MAIN MENU)
+3. Member Details > 
+
+
+      ฺฤฤฤฤฤฤฤ B i l l     O p t i o n s ฤฤฤฤฤฤฤฟ
+      ณ 1. Edit Name, Area, Unit, Open. Bal ?   ณ 
+      ณ 2. Allow editing of Rates ?             ณ 
+      ณ 3. Sort according to Flat Nos. ?        ณ 
+
+
+   STEPS TO FOLLOW :
+   (As show in Menu above)
+   (It is recommended to Take a Backup before doing this process)
+   
+   Say  Yes to Option No. 1. Enter the Unit/Flat No, Area..
+   Next Yes to Option No. 3. to Sort the Flat Nos
+   Next Yes to Option No. 2. to Enter the Rates of New Member
+   Next Yes to Option No. 1. to Enter "X" in CAT (category) column.
+                             against the Old member.
+                             marking "X" will not generate subsequent bills for old member.
+   Also following this method will created two different ledgers for both old and new members.
+
+----------------------------------------------------------------
+HOW DO I SAVE-GUARD THE DATA ?
+   Take a Regular Back-up of your Data
+   on Floppies, CDs, Harddisks or other Media
+   
+7. Accessories
+5. Back/Res. Data
+
+   Your Floppies may get corrupted or your harddisks might crash
+   to secure your data, take regular backup of your data
+   on Floppies and Harddisks, Burning CDs with your data is a 
+   prefered option, have your data backed up on atleast 2 media.
+   
+   A compressed file is created while taking a backup with the 
+   extension .arj
+   
+   You may even copy or burn into a CD, the whole c:\pace directory
+   depending on the Drive the package is installed.
+   
+   If your data looks haywire, don't take a backup, 
+   you might overwrite and damage the existing backed-up data
+   Contact Databyte  Computers instead.
+   
+   Unless absolutely sure, Don't restore your data.  
+   Or do so at a different location.
+
+   ALSO SET PASSWORDS TO ENTER THE PACKAGE
+   if you Computer is Accessible by Un-authorised Persons.
+
+----------------------------------------------------------------
+CAN I GENERATE SEPARATE BILLS, WITH A DIFFERENT BILLING STRUTURE,
+DIFFERENT RATE, APART FROM THE REGULAR BILLS ?
+
+YES, FOLLOW STEPS TO DO SO.
+
+STEP 1 - Take a backup
+---------------------
+It is recommended to take a Backup of your Data, incase you want to 
+revert back your actions.
+
+STEP 2 - Store current Rate in a Library
+----------------------------------------
+Next Store your current Billing Rates, in a Library, through the
+Library Options.
+
+3. Bills/Vouchers 
+5. Library Option
+
+       Library Options
+       --------------- 
+1. List Library Names ?       No
+2. Clear all Current Rates ?  No
+3. Load Library ?             No
+4. Delete Library ?           No
+5. Store Current Rates ?      Yes - give a meaningful Name
+                                 e.g. April - for April Rates
+                                   or Regular - for Regular Rates
+                                   
+Whatever Name you enter, you can revert back to the Master Rates
+by using the Load Library Option, and selecting the specified Library Name.
+You may create as many Libraries you want.                                    
+
+STEP 3 - Clear Current Rates
+----------------------------
+Next use the Library Option to clear the current rates
+2. Clear all Current Rates ?  Yes
+
+
+STEP 4. - Create a Ledger Account
+---------------------------------
+e.g you want to create an item call - Major Repair Charges
+according Create a Ledger Account
+
+1. Master Maint.
+1. Create Account
+
+STEP 5 - Create a New Bill Structure
+------------------------------------
+Refer to above < DESIGNING THE BILL STRUCTURE >
+
+except When prompted for Bill Structure Date :
+give a new Bill Structure Date 
+
+STEP 6. - Enter the Rates for the new Item created
+--------------------------------------------------
+1. Master Maint.
+3. Member Details
+
+   1. Edit Names, Area, Unit, Open Bal ? 
+      say N - for No    
+      
+   2. Allow Editing of Rates ?           
+      say Y - for Yes     
+
+Enter the rates in the new column
+
+You may save the New Rates again in a Library for future use.
+by making use of Store Current Rates, via Library Options
+
+Proceed further to Generate the Bills.
+Select the same Bill Structure Date and not the Regular Bill Structure Date.
+
+Next you may revert back to your Regular Billing Rates, by
+using the Libray Option, Load Library.
+   
+----------------------------------------------------------------
+LIST OF NEW FEATURES ADDED, SINCE THE LAST MANUAL PRINTED..
+----------------------------------------------------------------
+1.  Use <Ctrl+T> to copy Title of a Member e.g. Mr.,Mrs. Dr.,Capt, etc
+    instead of <Ctrl+A> used earlier.
+
+2.  While Editing Rates, use the <spacebar> to Display Names and Unit Nos.
+    when your Left part of the screen does not display the names, unit nos,
+    while Nagivating on the Right side of the Screen.
+
+3.  AlphaNumeric Unit Nos can be used, unlike earlier only Numeric.
+
+4.  Cost Centres - You can now bifurcate expenses etc. building wise or 
+    Create your own Cost Centres
+
+5.  Option to print Non Billing Receipts
+    e.g. Receipts can be printed, which are directly credited to
+         Transfer Fees, Admission Fees, Sale of Scrap etc.       
+
+6.  Option to Print in 2 Column format
+    e.g. 6 items on the Left and 6 items on the right of the bill
+         in 6 inch paper.
+
+7.  Option to Print Receipt below a bill
+
+8.  Option to Print the Ledger below a bill
+
+9.  Option to Print Due Date, Rateable Value in the bill.
+
+10. Option for 16 items in tbe bill, instead of 12 items earlier
+    which has to be enabled in the Setup Option - Advanced Settings
+
+11. Receipts and Payment Statement
+
+12. Additional Categories apart from S - for Shop , G - for Garage 
+    now can have F - for Flat, L - for Gala, O - for Office
+                 P - for Parking # , U - for Unit No 
+
+13. Option to copy similar wing, by pressing <Ctrl+W> thru member details 
+
+14. Option to copy similar Area, by pressing <Ctrl+R> thru member details 
+
+15. Option to copy similar Bldg, by pressing <Ctrl+B> thru member details 
+
+16. Rebate Options
+    You can now have an Option for Rebates, enabling it thru Setup, and
+    Advanced Settings, and setting the rates thru Rebates Options
+
+17. Option to Store and Print on Bills Rateable Value    
+
+18. Option to Sort Receipts List Datewise, Receipt Nowise or Unitwise
+
+19. In Ledger Use F1 Key to Group Select, now also use F3 Key to De-select 
+    a whole Group of Ledger Accounts, Use F2 to Tick all.
+
+20. In Ledger Use F4 Key to Select all Accounts with Debit Balances.    
+              Use F5 Key to Select all Accounts with Credit Balances.    
+              Use F2 Key to Select all Accounts or De-Select all accounts
+
+21. Option to Modify Interest (only in Special Version)
+
+22. Option not to Charge Interest on a Particular Amount in Bill.
+
+23. Option to Create and Feed similar Bill Rates, quickly on a press of 
+    of Key. viz. Press <f1> Key to replace similar values for first field
+    in Bill etc.
+    Press <Ctrl+A> to Calculate Rates - Areawise and replace immediately.            
+    Option to Feed Rates in Master based on a set pattern.              
+    via     1. Master Maint.  --  3. Members Details
+    
+24. Option to Display and Print Principal and Accumulated Interest
+    in Bill Register, if Opted for Simple Interest.
+    via     4. Accounts Books --  4. Bill Register
+    
+25. Option to Display and Print Expense and Receipts Summary
+    via     5. Reports        --  7. Expense Summary.     
+
+26. Option to Delete all Transactions, within a selected Date Range
+    Use Cautiously ....
+    can be Deleted on entering of Valid Deletion Password only.
+    
+    via     3. Bills/Vouchers --  2. Daybook/Erase
+
+27. Option to Replace the Word <Interest> with your own word. 
+    e.g. use the word <Penalty> instead of <Interest>
+    
+    Option to Replace the Term <Bldg> with your own Term.
+    e.g. Floor, Site or Level etc.
+    
+    Option to Replace the Term <Interest on Arrears> 
+    with your own Term.
+    
+    via     8. Setup        --  7. Advance Settings
+
+28. Option to have more lines for footnote, now can be 
+    extended to 18 lines.    
+    
+    via     8. Setup        --  7. Advance Settings
+                  
+29. Option to Toggle X
+    Entering "X" in the cat (category) column, through Member Details
+    will prevent generating bills for those members
+    
+    Suppose you need to generate a set of bills for some members
+    and avoid some. Enter "X" in the cat (category) column, against 
+    the menbers whom you don't want to generate bills,
+    Next Generate the Bills ..... all bills pertaining to 
+    members who are not marked "X" bill be billed.
+    
+    Next Press Ctrl+X to toggle the X marked members
+    Generate the next set of bills (with a different date)
+    
+    This feature will bypass any cat with an "S" , "G" or any other category
+
+30. Reminder Letter    
+
+31. Payment List
+    sorted Datewise or Document Nowise or Accountwise
+    with Option for Narration 
+    
+32. Earlier payments received a day before the date of the bill were
+    considered, payments made on the day of the bill date were not taken
+    into account.
+    Now payments recorded even on the Bill date are considered.
+    e.g. if Bill date is 01.01.2005 and payment is recorded on the same day
+         credit is given to the party.
+
+33. Option for Mini Receipt with Bill.
+
+34. Option for Bankwise Receipt List
+
+35. Option for Daywise Interest Calculation
+
+36. Option to Multiply the existing Rates with any Amount
+    by Pressing Ctrl + m
+    Similar to Pressing Ctrl + a - for Areawise Calculation 
+
+37. Option to Divide the existing Rates with any Amount              
+    by Pressing Ctrl + d
+38. Collection Register - under Account Books
+39. Option for Individual Bill FootNote.   
+40. Signature Register (acknowledgement for any document)
+41. Refresh Opening Balance will exclude Member's Opening Balance
+42. Changes in Default Password setup to avoids inserting error passwords. (v 5.90)
+43. Shows Groups in Opening / Closing Balance Lists & option for Nil amounts (v 5.91)
+44. Option to pick up Pre-defined Narrations in 3 & 4th lines too.
+45. Option in Recepts List for Non Member-related receipts (v 5.92)
+46. Option for Replication of Members, to create another set of billing
+    e.g. Major Repairs,  with separate ledger accounts.
+    can also set separate interest rates to this set of accounts (v 5.97)
+47. Option for Mini Receipt in Bills, including 2 columnar bills.(v 6.00)    
+48. Press Ctrl+S to Search on Unit No.
+    Press Ctrl+F to Find Member's Name while entering Receipts etc.
+49. Additional Field - X instead on CATegory field to input X and N.    
+50. Oustanding List with Ageing Option (3-3-7) (v 6.04)
+    
+------------------------------------------------------------------------
+
+(f) While entering vouchers relating to Cash Withdrawal from, Enter the Same through
+    Bank Payments ONCE only, and NOT again in the Cash Receipts. Cash on hand is 
+    automatically adjusted.  The same applies for Cash Deposits made in Bank.
+    
+    If Cash is received only from other sources, and not through Banks, then
+    enter a voucher through Cash Receipts.
+
+
+Advance Options (under Setup)
+
+ 1)  The CODE CONVERTOR is used to shuffle any Ledger Account, and place it at a different Location.
+
+     e.g. Computer Sytems which is a FIXED ASSET is grouped under INVESTMENT by mistake,
+          can be corrected by changing the code to a FIXED ASSETS code.
+          (all transactions pertaining to the same will also be rectified automaticaly)
+  
+ 2)  The GROUP CONVERTOR can likewise be used to change a whole Group into
+     another Group. 
+
+     e.g. Convert all FIXED ASSETS Group to DEPOSITS Group
+           (the above two tools are to used cautiously)
+
+ 4)  MERGE ACCOUNT : This tool is used to Merge two Ledger Accounts
+     e.g. Wages a/c and Salary a/c is to be merged to form only a single
+          account (viz. Salary account) at the end of the year
+          
+          
+ 5) DELETE MEMO ENTRIES : Memo Entries are Temporary Journal Entries
+    entered anytime during the year for generating I & E a/c, Balance Sheet
+    etc.  These entries can be deleted at once using this Option.
+
+    
+                 G E N E R A L     T I P S  
+
+
+(a) The Main Menu Consists of 8 Options apart from Quit.
+
+(b) You may Move the Highlighted Bar or Enter the Option Number.
+
+(c) When the Options are selected a Sub-Menu shall appear on the Sides.
+
+(d) When the Sub-Menus are selected a further Menu might appear.
+
+(e) You are always guided through the Package by way of a Dialog Box, Messages
+    You have to Select the Option desired by you
+
+    Normally the Standard Option is selected and you simply have to Press ENTER.
+    
+(f) You are advised to regularly BACKUP Your DATA.
+
+
+ ษอออออออออออออออออป  
+ บ STEPS TO FOLLOW บ    MAIN MENU  ออ Select ACCESSORIES ออ Select BACKUP     
+ ศอออออออออออออออออผ 
+           
+    It is recommended to maintain Two Sets of Floppies for Backup.
+    
+    Mark Floppies as Set A and Set B, and Alternately use each floppy
+    for Backing up.
+    
+    For Multiple Societies Write the Name of Society on each Floppy,
+    and Select the respective Floppies as Backup.
+
+    Enter a meaningful Backup file name, in place of XFILE (default name)  
+    the system will remember the last mentioned file name. Different societies
+    should have a different Backup File Name, never use similar file names.
+
+    
+
+                          P R I N T I N G   
+
+
+(a) Before attempting to Print a Report, do check that the Printer is Online.
+
+(b) All Reports can be printed on the 80, 132 or 136 Column Printer.
+
+(c) Most of the Reports require only the 80 Column Printer,
+    Unless the Printer Size is Asked?
+    
+(d) When the Printer Size is asked, and You are using the 80 Column Printer,
+    Reports are printed in the Condensed Form.
+    
+(e) Almost all the Reports that can be viewed on the Screen, can be printed.
+
+              
+DISCLAIMER
+----------
+Although atmost care has being taken in the making of this 
+Financial Accounting Package, and has been thoroughly tested
+and verified for more then a decade by the makers & hundreds of users, 
+Chartered Accountants, Advocates and other Professionals.
+The Makers of this package are not responsible in any way
+for the results or consequence of this package.
+
+You are advised to update the package to keep abreast of the latest.
+

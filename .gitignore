@@ -1,0 +1,47 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# PACE / CAPITAL — repository ignore rules
+# The repo ships the SOFTWARE (launchers, program, blank master templates, docs).
+# Large binaries and private data are deliberately excluded — see notes below.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Bundled emulator (110 MB) — distributed via GitHub Releases, not in-tree.
+#    The launchers fall back to a system DOSBox-X, or you unzip a release asset
+#    into emu/.  See README "Other platforms".
+emu/
+
+# ── User manual (51 MB of RTF + viewer) — distributed via GitHub Releases.
+eMANUAL/
+
+# ── PRIVATE CLIENT DATA — real co-operative-society financial records
+#    (member ledgers, transactions, bills). NEVER publish. The repo ships only
+#    the blank master templates in PACE/ ; real society folders are excluded.
+#    Society data folders are named with a numeric code + a high byte (e.g. 01»).
+PACE/[0-9][0-9]*/
+PACE/*»*/
+
+# ── Archived vendor/installer tooling (old DOS installers, licence tooling,
+#    the later Windows product). Not part of the runnable app.
+attic/
+
+# ── macOS / editor / OS cruft
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# ── Emulator runtime leftovers
+*.tmp
+*.TMP
+pace-*.conf
+caps/
+
+# ── Local build/screenshot/scratch output
+*.png
+*.zip
+*.arj
+SUMMARY_overview_backup.md
+
+# ── Python
+__pycache__/
+*.pyc

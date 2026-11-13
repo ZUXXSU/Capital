@@ -1,0 +1,32 @@
+#!/bin/sh
+# Double-click entry point for macOS.
+#
+# This bundle deliberately touches no files. An app launched from Finder is
+# subject to TCC, and when the app and its data sit on an external or USB volume
+# macOS often denies access outright with EPERM ("Operation not permitted")
+# instead of prompting - an ad-hoc signed bundle gets no consent dialog to
+# click. So this hands the job to Terminal, which already holds disk access,
+# and does the path work with string operations only: no cd, no test, no stat,
+# nothing that could be denied before we get that far.
+set -u
+
+SELF=$0
+BUNDLE=${SELF%/PACE.app/Contents/MacOS/PACE}
+[ "$BUNDLE" = "$SELF" ] && BUNDLE=$(dirname -- "$SELF")/../../..
+TARGET="$BUNDLE/PACE.command"
+
+# Preferred: let Terminal open the launcher.
+open -a Terminal "$TARGET" 2>/dev/null && exit 0
+
+# Fallback: drive Terminal over AppleScript. This prompts once for permission
+# to control Terminal, which is a dialog the user can actually accept.
+escaped=$(printf '%s' "$TARGET" | sed 's/\\/\\\\/g; s/"/\\"/g')
+osascript >/dev/null 2>&1 <<OSA && exit 0
+tell application "Terminal"
+    activate
+    do script "exec \"$escaped\""
+end tell
+OSA
+
+osascript -e 'display alert "PACE could not start" message "Could not hand off to Terminal. Open the PACE folder in Finder and double-click PACE.command instead." as critical' >/dev/null 2>&1
+exit 1

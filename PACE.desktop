@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PACE / CAPITAL
+Comment=Society and company accounting (FoxPro 2.5 DOS, run under DOSBox-X)
+Exec=sh -c '"$(dirname "%k")/PACE.sh"'
+Path=.
+Terminal=true
+Categories=Office;Finance;

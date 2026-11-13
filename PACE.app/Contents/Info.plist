@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>            <string>PACE</string>
+    <key>CFBundleDisplayName</key>     <string>PACE / CAPITAL</string>
+    <key>CFBundleIdentifier</key>      <string>in.saket.pace.launcher</string>
+    <key>CFBundleVersion</key>         <string>1.0</string>
+    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundlePackageType</key>     <string>APPL</string>
+    <key>CFBundleExecutable</key>      <string>PACE</string>
+    <key>LSMinimumSystemVersion</key>  <string>10.13</string>
+    <key>NSHighResolutionCapable</key> <true/>
+
+    <!-- The app, its emulator and all its data live in one folder that is
+         normally on an external or removable disk. Without these keys macOS
+         denies the access silently with EPERM instead of asking the user. -->
+    <key>NSRemovableVolumesUsageDescription</key>
+    <string>PACE keeps its program and accounting data in the folder it was copied to, often a USB disk.</string>
+    <key>NSNetworkVolumesUsageDescription</key>
+    <string>PACE needs this to run from a shared network folder, as the original DOS install did.</string>
+    <key>NSDesktopFolderUsageDescription</key>
+    <string>PACE needs this when its folder is kept on the Desktop.</string>
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>PACE needs this when its folder is kept in Documents.</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>PACE needs this when its folder is kept in Downloads.</string>
+</dict>
+</plist>
