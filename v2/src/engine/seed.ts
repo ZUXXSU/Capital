@@ -70,6 +70,10 @@ export async function seedDemoCompany(): Promise<Company> {
     makeLedger('210002', 'HDFC Bank — Current A/c', '21', 18500000, 'D', { isBank: true }),
     makeLedger('210003', 'SBI Bank — Savings A/c', '21', 6200000, 'D', { isBank: true }),
     makeLedger('110001', 'Member Share Capital', '11', 2500000, 'C'),
+    // Corpus / General Reserve Fund — the accumulated-fund credit that balances
+    // the society's net assets so the opening trial balance is in equilibrium
+    // (assets 2,82,000 - other liabilities 40,000 = 2,42,000 reserve).
+    makeLedger('110002', 'General Reserve Fund', '11', 24200000, 'C'),
     makeLedger('160001', 'Audit Fees Payable', '16', 1500000, 'C'),
     makeLedger('350001', 'Interest on Fixed Deposits', '35', 0, 'D'),
     makeLedger('310001', 'Non-Occupancy Charges', '31', 0, 'D'),
